@@ -1,0 +1,3 @@
+## turn in VGA on the left side of the screen
+alias voff='/bin/xrandr --output VGA1 --off'
+alias von='/bin/xrandr --output VGA1 --auto --left-of LVDS1 --noprimary'
